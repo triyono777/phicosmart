@@ -1,0 +1,38 @@
+unit datapengguna;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, DBGrids, StdCtrls, Buttons, sBitBtn, sEdit, sLabel;
+
+type
+  Tfdatapengguna = class(TForm)
+    ckode: TsLabel;
+    sLabel1: TsLabel;
+    sLabel5: TsLabel;
+    sLabel2: TsLabel;
+    ekodepengguna: TsEdit;
+    enamapengguna: TsEdit;
+    Epassword: TsEdit;
+    enomertelepon: TsEdit;
+    btnsimpan: TsBitBtn;
+    btntutup: TsBitBtn;
+    btnhapus: TsBitBtn;
+    btntambah: TsBitBtn;
+    btnubah: TsBitBtn;
+    DBGrid1: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fdatapengguna: Tfdatapengguna;
+
+implementation
+
+{$R *.dfm}
+
+end.

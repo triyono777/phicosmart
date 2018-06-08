@@ -1,0 +1,38 @@
+unit datapelanggan;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, DBGrids, StdCtrls, sEdit, Buttons, sBitBtn, sLabel;
+
+type
+  Tfdatapelanggan = class(TForm)
+    ckode: TsLabel;
+    sLabel1: TsLabel;
+    sLabel5: TsLabel;
+    sLabel2: TsLabel;
+    sBitBtn2: TsBitBtn;
+    sBitBtn3: TsBitBtn;
+    sBitBtn4: TsBitBtn;
+    sBitBtn5: TsBitBtn;
+    sBitBtn1: TsBitBtn;
+    ekodepelanggan: TsEdit;
+    enamapelanggan: TsEdit;
+    ealamat: TsEdit;
+    enomertelepon: TsEdit;
+    DBGrid1: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fdatapelanggan: Tfdatapelanggan;
+
+implementation
+
+{$R *.dfm}
+
+end.
